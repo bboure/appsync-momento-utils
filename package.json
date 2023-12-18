@@ -1,0 +1,17 @@
+{
+  "name": "appsync-momento-utils",
+  "version": "1.0.0",
+  "description": "Utility functions and type definitions for interacting with Momento's API from AWS AppSync HTTP Resolvers written in JavaScript.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "author": "Benoît Bouré",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-appsync/utils": "^1.6.0",
+    "prettier": "^3.1.1"
+  }
+}
